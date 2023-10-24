@@ -1,0 +1,22 @@
+/* Style the container */
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    gap: 5px;
+    width: 600px;
+  }
+
+  /* Style the keys */
+  .key {
+    border: 1px solid #2cbc57;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+
+  .wide-key {
+    grid-column-end: span 2;
+  }
